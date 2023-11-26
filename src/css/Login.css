@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(71, 55, 55, 0.432);
+  
+
+  }
+  
+  .login-wrapper {
+    background-color: #85775b;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(
+        #6084da,
+        #2574a1
+    );
+    
+     }
+  
+  .login-wrapper h1 {
+    text-align: center;
+    color: #333;
+   
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  label p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+  
+
+/* Stili për h1 */
+h1 {
+  color: white; 
+  font-size: 2em; 
+  margin-bottom: 10px; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+.button {
+  display: block;
+  margin: 3px 5px;
+padding: 3px 5px;
+border-radius: 3px;
+background-color: burlywood;
+width: fit-content;
+}
